@@ -16,6 +16,6 @@ if __name__ == "__main__":
     # Найдем дополнения множеств
     bn = u.difference(b)
     cn = u.difference(c)
-    
+
     y = (a.difference(d)).union(cn.difference(bn))
     print(f"y = {y}")
